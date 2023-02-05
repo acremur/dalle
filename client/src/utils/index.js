@@ -13,8 +13,7 @@ export function getRandomPrompt(prompt) {
 
 export async function downloadImage(_id, photo, prompt) {
     let desc = ''
-    wordsArr = prompt.split(' ')
-    console.log(wordsArr)
+    let wordsArr = prompt.split(' ')
     for (let i = 0; i < 3; i++) {
         if (i == 0) desc += wordsArr[i]
         else desc += ' ' + wordsArr[i]

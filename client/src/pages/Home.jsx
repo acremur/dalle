@@ -28,7 +28,7 @@ const Home = () => {
       setLoading(true)
 
       try {
-        const response = await fetch('https://dalle-pi.vercel.app/api/v1/posts', {
+        const response = await fetch('https://dalle-l2ou.onrender.com/api/v1/posts', {
           method: 'GET',
           headers: {
             'Content-Type': 'application/json'
